@@ -28,6 +28,12 @@
             "justMyCode": true,
         },
         {
+            "name": "Python Debugger: Attach using Process Id",
+            "type": "debugpy",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
+        {
             "name": "Debug Unit Test",
             "type": "debugpy",
             "request": "launch",
